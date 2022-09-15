@@ -1,6 +1,6 @@
 <template>
   <div w-full h-full flex flex-col justify-center items-center space-y-12>
-    <img alt="Wildpoint logo" src="logo-light.svg" w-80>
+    <img alt="Wildpoint logo" src="/logo-light.svg" w-80>
     <div flex flex-col text-center space-y-2>
       <h1 text-white text-3xl font-semibold>
         Wildpoint is closed for Winter 2022
