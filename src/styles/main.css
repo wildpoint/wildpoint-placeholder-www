@@ -1,5 +1,6 @@
-@import './markdown.css';
-
+html {
+  @apply bg-brand
+}
 html,
 body,
 #app {
@@ -8,17 +9,12 @@ body,
   padding: 0;
 }
 
-html.dark {
-  background: #121212;
-  color-scheme: dark;
-}
-
 #nprogress {
   pointer-events: none;
 }
 
 #nprogress .bar {
-  background: rgb(13,148,136);
+  background: red;
   opacity: 0.75;
   position: fixed;
   z-index: 1031;

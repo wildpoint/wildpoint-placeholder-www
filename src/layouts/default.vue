@@ -1,9 +1,5 @@
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
+  <main min-h-100vh flex justify-center items-center px-4 py-24 md:px-12>
     <RouterView />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm">
-      [Default Layout]
-    </div>
   </main>
 </template>

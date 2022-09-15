@@ -2,10 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" href="/pwa-192x192.png">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00aba9">
-  <meta name="msapplication-TileColor" content="#00aba9">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fff">
+  <meta name="msapplication-TileColor" content="#fff">
+  <meta name="theme-color" content="#fff">
+  <meta name="og:type" property="og:type" data-vmid="og:type" content="website">
+  <meta name="og:title" property="og:title" data-vmid="og:title" content="Wildpoint | Unique Outdoor Stays: Tent camping, Cabins, Glamping">
+  <meta name="og:url" property="og:url" data-vmid="og:url" content="https://wildpoint.com">
+  <meta name="og:image" property="og:image" data-vmid="og:image" content="https://storage.googleapis.com/wildpoint-cdn/og-image.png">
+  <meta name="og:description" property="og:description" data-vmid="og:description" content="Discover & book unique outdoor stays, tent camping, cabins, glamping, campervan pitches & more - courtesy of Wildpoint hosts all around the UK">
+  <meta name="description" property="description" data-vmid="description" content="Discover & book unique outdoor stays, tent camping, cabins, glamping, campervan pitches & more - courtesy of Wildpoint hosts all around the UK">
+  <title data-vmid="title">Wildpoint | Unique Outdoor Stays: Tent camping, Cabins, Glamping</title>
+  <meta name="google-site-verification" content="e1Y1gdc5DBBvmuwdVmaeaFcsvyI37xMw8E8QtauZtx8" />
   <script>
     (function () {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -14,8 +27,21 @@
         document.documentElement.classList.toggle('dark', true)
     })()
   </script>
+  <script>(function (w, d, s, l, i) {
+  w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+            new Date().getTime(),
+      'event': 'gtm.js',
+  }); const f = d.getElementsByTagName(s)[0]
+  const j = d.createElement(s); const dl = l != 'dataLayer' ? `&l=${l}` : ''; j.async = true; j.src
+    = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`; f.parentNode.insertBefore(j, f)
+  })(window, document, 'script', 'dataLayer', 'GTM-MPB2KPT')
+    </script>
 </head>
-<body class="font-sans">
+<body>
+  <noscript>
+    <strong>We're sorry but Wildpoint doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
   <div id="app"></div>
   <script type="module" src="/src/main.ts"></script>
 </body>
